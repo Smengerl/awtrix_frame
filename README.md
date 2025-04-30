@@ -50,11 +50,55 @@ Printer settings:
 
 ### Step 2: Base
 
+#### 3D-Printed Parts
+
+Note: no part of the base will be visible any longer once the cover is attached, so you can use up leftover filament
+
+| Filename                            | Thumbnail                                                | Required | Notes |
+| ----------------------------------- | ---------------------------------------------------------| -------- | ------|
+| `./print/base/base_left.stl`        | <img src="./print/base/rendering/base_left.png"/>        | 1        | Invisible in assembled state |
+| `./print/base/base_right.stl`       | <img src="./print/base/rendering/base_left.png"/>        | 1        | Invisible in assembled state |
+| `./print/base/base_lower_left.stl`  | <img src="./print/base/rendering/base_lower_left.png"/>  | 1        | Invisible in assembled state |
+| `./print/base/base_lower_right.stl` | <img src="./print/base/rendering/base_lower_right.png"/> | 1        | Invisible in assembled state |
+| `./print/base/base_middle.stl`      | <img src="./print/base/rendering/base_lower_right.png"/> | 1        | Invisible in assembled state |
+
 
 ### Step 3: Pushbuttons
 
+#### 3D-Printed Parts
+
+| Filename                                    | Thumbnail                                                        | Required | Notes |
+| ------------------------------------------- | -----------------------------------------------------------------| -------- | ------|
+| `./print/pushbutton/pushbutton_base.stl`    | <img src="./print/pushbutton/rendering/pushbutton_base.png"/>    | 1        | Invisible in assembled state |
+| `./print/pushbutton/pushbutton_clicker.stl` | <img src="./print/pushbutton/rendering/pushbutton_clicker.png"/> | 1        | Make sure to print in the depicted direction and enable light supports |
+
+
 
 ### Step 4: Covers
+
+Notes:
+- Consider fuzzy skin for outside walls
+- Use a nice color to personalize your AWTRIX
+
+| Filename                        | Thumbnail                                            | Required | Notes |
+| ------------------------------- | -----------------------------------------------------| -------- | ------|
+| `./print/cover/cover_left.stl`  | <img src="./print/cover/rendering/cover_left.png"/>  | 1        |       |
+| `./print/cover/cover_right.stl` | <img src="./print/cover/rendering/cover_right.png"/> | 1        |       |
+
+
+### Step 5: Anti-slip pads
+
+Optionally you might want to add TPU ![anti-slip pads](./print/antislip/antislip.stl) to the AWTRIX which gives it a solid stand in laying (8 pads) and/or upright position (3 pads).
+Assemble these pads at the indicated locations on the base and cover. 
+Alternatively you can use standard rubber pads and attach them with double sided tape.
+
+Location of the pads for upright position:
+<img src="./print/antislip/rendering/antislip_upright.png"/>
+
+Location of the pads for laying or wall hanging position:
+<img src="./print/antislip/rendering/antislip_back.png"/>
+
+
 
 #### Standard parts
 
