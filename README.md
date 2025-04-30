@@ -4,7 +4,7 @@ Housing to build an AWTRIX pixel clock at very low price point (<20 USD)
 - 32*8px display "fullblack" with light-diffusor 
 - Three buttons to navigate menu
 - Optional light sensor
-- Optional TF Player sound 
+- Optional DF Player sound 
 - Optional buzzer
 
 
@@ -27,6 +27,11 @@ Printer settings:
 - Using fuzzy skin for all outside walls creates a nice look
 - No rafts/brim etc. reguired for any model.
 
+
+
+
+
+
 ### Step 1: Diffusor
 
 #### 3D-Printed Parts
@@ -45,6 +50,10 @@ Printer settings:
 - make sure the upper grid is fully pressed in so that surface of diffusor and grid is fully leveled, this may require some force
 
 ![assembly](./print/diffusor/rendering/assembly.gif)
+
+
+
+
 
 
 
@@ -68,8 +77,16 @@ Note: no part of the base will be visible any longer once the cover is attached,
 | Unit price | Quantity | Partname | Example | Notes |
 | ---------- | -------- | -------- | ------- | ----- |
 | 5 USD      | 1        | ESP32 Dev Module | <a href="https://de.aliexpress.com/item/1005006124752051.html">AliExpress</a> | Case designed for WROVER USB-C type. Other types also fit but might be glued |
-| 2 USD      | 1        | DF Player mini | <a href="https://de.aliexpress.com/item/1005006263283726.html">AliExpress</a> |  |
+| 8 USD      | 1        | WS2812B matrix 8x32 | <a href="https://de.aliexpress.com/item/4001296811800.html">AliExpress</a> |  |
+| 1 USD      | 1        | DF Player mini | <a href="https://de.aliexpress.com/item/1005006263283726.html">AliExpress</a> | Optional, for MP3 playback |
+| 1 USD      | 1        | Loudspeaker 8 Ohm | <a href="https://de.aliexpress.com/item/1005006358049156.html">AliExpress</a> | Optional, for MP3 playback. Watch for dimensions |
+| <1 USD     | 1        | Buzzer | <a href="https://de.aliexpress.com/item/1005004883467830.html">AliExpress</a> | Optional, for signaling |
+| <1 USD     | 1        | LDR GL5516 | <a href="https://de.aliexpress.com/item/1005005693826904.html">AliExpress</a> | Optional, for auto brightness |
 | <1 USD     | 14       | Flathead screws M2,5 or M3. >=6mm. e.g. DIN 7984  | <a href="https://de.aliexpress.com/item/1005006166060947.html">AliExpress</a> | Use low head version if possible for best look ("laptop screws") |
+
+
+
+
 
 
 
@@ -90,6 +107,13 @@ Note: no part of the base will be visible any longer once the cover is attached,
 | ---------- | -------- | -------- | ------- | ----- |
 | 1 USD      | 1        | 4 pushbutton element | <a href="https://de.aliexpress.com/item/1005007177677170.html">AliExpress</a> |  |
 | <1 USD     | 4        | Flathead screws M2,5 or M3. >=6mm. e.g. DIN 7984  | <a href="https://de.aliexpress.com/item/1005006166060947.html">AliExpress</a> | Use low head version if possible for best look ("laptop screws") |
+
+
+
+
+
+
+
 
 
 ### Step 4: Covers
@@ -133,14 +157,5 @@ Location of the pads for laying or wall hanging position:
 <img src="./print/antislip/rendering/antislip_back.png"/>
 
 
-
-#### Standard parts
-
-| Name              | Spec                          | Required | Notes |
-| ----------------- | ----------------------------- | -------- | ------|
-| countersunk screw | M3 5mm, e.g. DIN EN ISO 4762  | 4        | To attach ESP to back of housing |
-| countersunk screw | M3 5mm, e.g. DIN EN ISO 4762  | 4        | To attach display to back of housing |
-| cylinder head screw | M3 10mm | 4        | To fix back and front of housing |
-| semi-transparent acrylic board | max 2mm, 95-100mm * 40-50mm | 1        | Optional, for cleaner look |
 
 
