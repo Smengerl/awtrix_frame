@@ -58,9 +58,9 @@ Note: no part of the base will be visible any longer once the cover is attached,
 | ----------------------------------- | ---------------------------------------------------------| -------- | ------|
 | `./print/base/base_left.stl`        | <img src="./print/base/rendering/base_left.png"/>        | 1        | Invisible in assembled state |
 | `./print/base/base_right.stl`       | <img src="./print/base/rendering/base_left.png"/>        | 1        | Invisible in assembled state |
+| `./print/base/base_middle.stl`      | <img src="./print/base/rendering/base_middle.png"/>      | 1        | Invisible in assembled state |
 | `./print/base/base_lower_left.stl`  | <img src="./print/base/rendering/base_lower_left.png"/>  | 1        | Invisible in assembled state |
 | `./print/base/base_lower_right.stl` | <img src="./print/base/rendering/base_lower_right.png"/> | 1        | Invisible in assembled state |
-| `./print/base/base_middle.stl`      | <img src="./print/base/rendering/base_lower_right.png"/> | 1        | Invisible in assembled state |
 
 
 ### Step 3: Pushbuttons
@@ -76,19 +76,34 @@ Note: no part of the base will be visible any longer once the cover is attached,
 
 ### Step 4: Covers
 
+#### 3D-Printed Parts
+
 Notes:
 - Consider fuzzy skin for outside walls
 - Use a nice color to personalize your AWTRIX
+- Priting in depicted direction requires supports only at the location of the pushbuttons (consider disable auto supports and use paint-on supports at these locations)
 
 | Filename                        | Thumbnail                                            | Required | Notes |
 | ------------------------------- | -----------------------------------------------------| -------- | ------|
 | `./print/cover/cover_left.stl`  | <img src="./print/cover/rendering/cover_left.png"/>  | 1        |       |
 | `./print/cover/cover_right.stl` | <img src="./print/cover/rendering/cover_right.png"/> | 1        |       |
 
+#### Standard parts
+
+| Name              | Spec                          | Required | Notes |
+| ----------------- | ----------------------------- | -------- | ------|
+| countersunk screw | M3 6mm, e.g. DIN 7984         | 7        | Use low head version if possible for best look ("laptop screws") |
+| semi-transparent acrylic board | max 2mm          | 1        | Optional, for cleaner look |
+
+#### Assembly
+
+Cut the acrylic board as shown:
+![assembly](./print/cover/rendering/acryl.png)
+
+
 
 ### Step 5: Anti-slip pads
-
-Optionally you might want to add TPU ![anti-slip pads](./print/antislip/antislip.stl) to the AWTRIX which gives it a solid stand in laying (8 pads) and/or upright position (3 pads).
+Optionally you might want to add TPU [anti-slip pads](./print/antislip/antislip.stl) to the AWTRIX which gives it a solid stand in laying (8 pads) and/or upright position (3 pads).
 Assemble these pads at the indicated locations on the base and cover. 
 Alternatively you can use standard rubber pads and attach them with double sided tape.
 
