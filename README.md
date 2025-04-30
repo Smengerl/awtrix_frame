@@ -69,7 +69,7 @@ Note: no part of the base will be visible any longer once the cover is attached,
 | ---------- | -------- | -------- | ------- | ----- |
 | 5 USD      | 1        | ESP32 Dev Module | <a href="https://de.aliexpress.com/item/1005006124752051.html">AliExpress</a> | Case designed for WROVER USB-C type. Other types also fit but might be glued |
 | 2 USD      | 1        | DF Player mini | <a href="https://de.aliexpress.com/item/1005006263283726.html">AliExpress</a> |  |
-| <1 USD     | 14       | Flathead screws M2,5 or M3. >=6mm. e.g. DIN 7984  | <a href="https://de.aliexpress.com/item/1005006166060947.html>AliExpress</a> | Use low head version if possible for best look ("laptop screws") |
+| <1 USD     | 14       | Flathead screws M2,5 or M3. >=6mm. e.g. DIN 7984  | <a href="https://de.aliexpress.com/item/1005006166060947.html">AliExpress</a> | Use low head version if possible for best look ("laptop screws") |
 
 
 
@@ -89,7 +89,7 @@ Note: no part of the base will be visible any longer once the cover is attached,
 | Unit price | Quantity | Partname | Example | Notes |
 | ---------- | -------- | -------- | ------- | ----- |
 | 1 USD      | 1        | 4 pushbutton element | <a href="https://de.aliexpress.com/item/1005007177677170.html">AliExpress</a> |  |
-| <1 USD     | 4        | Flathead screws M2,5 or M3. >=6mm. e.g. DIN 7984  | <a href="https://de.aliexpress.com/item/1005006166060947.html>AliExpress</a> | Use low head version if possible for best look ("laptop screws") |
+| <1 USD     | 4        | Flathead screws M2,5 or M3. >=6mm. e.g. DIN 7984  | <a href="https://de.aliexpress.com/item/1005006166060947.html">AliExpress</a> | Use low head version if possible for best look ("laptop screws") |
 
 
 ### Step 4: Covers
@@ -110,8 +110,8 @@ Notes:
 
 | Unit price | Quantity | Partname | Example | Notes |
 | ---------- | -------- | -------- | ------- | ----- |
-| <1 USD     | 7        | Flathead screws M2,5 or M3. >=6mm. e.g. DIN 7984  | <a href="https://de.aliexpress.com/item/1005006166060947.html>AliExpress</a> | Use low head version if possible for best look ("laptop screws") |
-| 2 USD      | 1        | semi-transparent acrylic board | <a href="https://de.aliexpress.com/item/32857098929.html>AliExpress</a>  | max 2mm thick, peace of at least 338*98mm. Optional, for cleaner look. Best when using semi-transparent black acryl |
+| <1 USD     | 7        | Flathead screws M2,5 or M3. >=6mm. e.g. DIN 7984  | <a href="https://de.aliexpress.com/item/1005006166060947.html">AliExpress</a> | Use low head version if possible for best look ("laptop screws") |
+| 2 USD      | 1        | semi-transparent acrylic board | <a href="https://de.aliexpress.com/item/32857098929.html">AliExpress</a>  | max 2mm thick, peace of at least 338*98mm. Optional, for cleaner look. Best when using semi-transparent black acryl |
 
 #### Assembly
 
