@@ -63,6 +63,17 @@ Note: no part of the base will be visible any longer once the cover is attached,
 | `./print/base/base_lower_right.stl` | <img src="./print/base/rendering/base_lower_right.png"/> | 1        | Invisible in assembled state |
 
 
+#### Standard parts
+
+| Unit price | Quantity | Partname | Example | Notes |
+| ---------- | -------- | -------- | ------- | ----- |
+| 5 USD      | 1        | ESP32 Dev Module | <a href="https://de.aliexpress.com/item/1005006124752051.html">AliExpress</a> | Case designed for WROVER USB-C type. Other types also fit but might be glued |
+| 2 USD      | 1        | DF Player mini | <a href="https://de.aliexpress.com/item/1005006263283726.html">AliExpress</a> |  |
+| <1 USD     | 14       | Flathead screws M2,5 or M3. >=6mm. e.g. DIN 7984  | <a href="https://de.aliexpress.com/item/1005006166060947.html>AliExpress</a> | Use low head version if possible for best look ("laptop screws") |
+
+
+
+
 ### Step 3: Pushbuttons
 
 #### 3D-Printed Parts
@@ -72,6 +83,13 @@ Note: no part of the base will be visible any longer once the cover is attached,
 | `./print/pushbutton/pushbutton_base.stl`    | <img src="./print/pushbutton/rendering/pushbutton_base.png"/>    | 1        | Invisible in assembled state |
 | `./print/pushbutton/pushbutton_clicker.stl` | <img src="./print/pushbutton/rendering/pushbutton_clicker.png"/> | 1        | Make sure to print in the depicted direction and enable light supports |
 
+
+#### Standard parts
+
+| Unit price | Quantity | Partname | Example | Notes |
+| ---------- | -------- | -------- | ------- | ----- |
+| 1 USD      | 1        | 4 pushbutton element | <a href="https://de.aliexpress.com/item/1005007177677170.html">AliExpress</a> |  |
+| <1 USD     | 4        | Flathead screws M2,5 or M3. >=6mm. e.g. DIN 7984  | <a href="https://de.aliexpress.com/item/1005006166060947.html>AliExpress</a> | Use low head version if possible for best look ("laptop screws") |
 
 
 ### Step 4: Covers
@@ -90,10 +108,10 @@ Notes:
 
 #### Standard parts
 
-| Name              | Spec                          | Required | Notes |
-| ----------------- | ----------------------------- | -------- | ------|
-| countersunk screw | M3 6mm, e.g. DIN 7984         | 7        | Use low head version if possible for best look ("laptop screws") |
-| semi-transparent acrylic board | max 2mm          | 1        | Optional, for cleaner look |
+| Unit price | Quantity | Partname | Example | Notes |
+| ---------- | -------- | -------- | ------- | ----- |
+| <1 USD     | 7        | Flathead screws M2,5 or M3. >=6mm. e.g. DIN 7984  | <a href="https://de.aliexpress.com/item/1005006166060947.html>AliExpress</a> | Use low head version if possible for best look ("laptop screws") |
+| 2 USD      | 1        | semi-transparent acrylic board | <a href="https://de.aliexpress.com/item/32857098929.html>AliExpress</a>  | max 2mm thick, peace of at least 338*98mm. Optional, for cleaner look. Best when using semi-transparent black acryl |
 
 #### Assembly
 
@@ -104,8 +122,9 @@ Cut the acrylic board as shown:
 
 ### Step 5: Anti-slip pads
 Optionally you might want to add TPU [anti-slip pads](./print/antislip/antislip.stl) to the AWTRIX which gives it a solid stand in laying (8 pads) and/or upright position (3 pads).
-Assemble these pads at the indicated locations on the base and cover. 
-Alternatively you can use standard rubber pads and attach them with double sided tape.
+Assemble these pads at the indicated locations on the base and cover via double sided tape. 
+
+Alternatively you can use standard non-slip pads or even cut peaces of standard rubber pads and attach them with double sided tape.
 
 Location of the pads for upright position:
 <img src="./print/antislip/rendering/antislip_upright.png"/>
