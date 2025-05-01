@@ -86,7 +86,7 @@ Assembly:
 - One outside wall of the "diffusor_side" is a little thinner than the other wall. Use this to face to the middle grid to achieve best look  
 - make sure the upper grid is fully pressed in so that surface of diffusor and grid is fully leveled, this may require some force
 
-![assembly](./print/diffusor/rendering/assembly.gif)
+![assembly](./print/diffusor/rendering/diffusor_assembly.gif)
 
 
 
@@ -105,6 +105,16 @@ Note: no part of the base will be visible any longer once the cover is attached,
 | `./print/base/base_lower_left.stl`  | <img src="./print/base/rendering/base_lower_left.png"/>  | 1        | Invisible in assembled state |
 | `./print/base/base_lower_right.stl` | <img src="./print/base/rendering/base_lower_right.png"/> | 1        | Invisible in assembled state |
 
+Assembly:
+- Connect the parts of the lower base via the locks 
+- Most electronics go into the lower part of the base (ESP, DF player, buzzer, loudspeaker, LDR). Make sure to have them installed before going on
+- Connect the parts of the upper base via the locks
+- The WS2812 LED grid is laid in the sunken part of the upper base. Solder the connection wires to the matrix and connect them to the electronics in the lower base
+- Prepare push button assembly by soldering the wires of the 4 button module to the ESP and make them stick out the holes  
+- Put upper part of base atop of lower part
+- Screw both parts toger via screws from bottom (the screw holes on the upper part are foreseen for wall hangings via screws)
+
+![assembly](./print/base/rendering/base_assembly.gif)
 
 
 
@@ -118,6 +128,11 @@ Note: no part of the base will be visible any longer once the cover is attached,
 | `./print/pushbutton/pushbutton_clicker.stl` | <img src="./print/pushbutton/rendering/pushbutton_clicker.png"/> | 1        | Make sure to print in the depicted direction and enable light supports |
 
 
+Assembly:
+- Place 4 button module PCN on top of pushbutton base and screws it to the base
+- Press pushbutton top "clicker" to the 4 button module. Each button's hat need to fit into one of the foreseen holes in the clicker 
+
+![assembly](./print/pushbutton/rendering/pushbutton_assembly.gif)
 
 
 
@@ -140,6 +155,16 @@ Notes:
 Cut the acrylic board as shown:
 ![assembly](./print/cover/rendering/acryl.png)
 
+
+
+Assembly:
+- Place the diffusor on top of the LED matrix in the sunken part of the upper base. Adjust the peaces in a way that the surface of the diffusor aligns with the one of the upper base
+- place the acrylic board on top of the base and diffusor
+- Slide both parts of the cover on the base with the diffusor and acrylic board
+- Screw the cover to the base 
+
+Cut the acrylic board as shown:
+![assembly](./print/cover/rendering/cover_assembly.gif)
 
 
 
