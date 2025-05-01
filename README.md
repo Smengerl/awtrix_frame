@@ -25,19 +25,14 @@ Also the temperature/humidity sensor I did not include in the housing as the hea
 
 
 # Index
-- [Standard parts](#standard_parts)
-- [Note on 3D printed parts](#note_on_3d_printed_parts)
-- [Step 1: Diffusor](#step_1_diffusor)
-- [Step 2: Base](#step_2_base)
-- [Step 3: Pushbuttons](#step_3_pushbuttons)
-- [Step 4: Covers](#step_4_covers)
-- [Step 5: Anti-slip pads](#step_5_antislip_pads)
+- [Buy parts](#buy_parts)
+- [Printing and assembly](#printing_and_assembly)
 - [Customization ideas](#customization_ideas)
 - [Acknowledgements](#Acknowledgements)
 
 
 
-## Standard parts
+## Buy parts
 
 Mandatory parts:
 
@@ -59,126 +54,22 @@ Optional parts:
 | <1 USD     | 1        | LDR GL5516 | <a href="https://de.aliexpress.com/item/1005005693826904.html">AliExpress</a> | Optional, for auto brightness |
 
 
-## Note on 3D printed parts
 
-Printer settings:
+## Printing and assembly
+
+The printing and assembly process consist of 5 steps:
+- [Step 1: Diffusor](./instructions/step_1.md)
+- [Step 2: Base](./instructions/step_2.md)
+- [Step 3: Pushbuttons](./instructions/step_3.md)
+- [Step 4: Covers](./instructions/step_4.md)
+- [Step 5: Anti-slip pads](./instructions/step_5.md)
+
+Remarks on printer settings:
 - All printed parts designed for PETG besides for the anti-slip pads (TPU) or the diffusor (worked best on PLA). 
 - Best experience on my printer was to print the part in the direction as shown in the thumbnails
 - no supports needed unless explicitely noted
 - Using fuzzy skin for all outside walls creates a nice look
 - No rafts/brim etc. reguired for any model.
-
-
-
-## Step 1: Diffusor
-
-3D-Printed Parts:
-
-| Filename                           | Thumbnail                                              | Required | Notes |
-| ---------------------------------- | -------------------------------------------------------| -------- | ------|
-| `./print/diffusor/diffusor.stl`    | <img src="./print/diffusor/rendering/diffusor.png"/>   | 2        | Standard white PLA gave best diffusor effect |
-| `./print/diffusor/grid_middle.stl` |<img src="./print/diffusor/rendering/grid_middle.png"/> | 2        | Use full black PETG for best stability and contrast |
-| `./print/diffusor/grid_side.stl`   |<img src="./print/diffusor/rendering/grid_side.png"/>   | 4        | Use full black PETG for best stability and contrast |
-
-Assembly:
-- Snap in the grids to the diffusor from both directions
-- Use the larger "middle grid" to tie both diffusor part together as shown in assembly animation
-- One outside wall of the "diffusor_side" is a little thinner than the other wall. Use this to face to the middle grid to achieve best look  
-- make sure the upper grid is fully pressed in so that surface of diffusor and grid is fully leveled, this may require some force
-
-![assembly](./print/diffusor/rendering/diffusor_assembly.gif)
-
-
-
-
-
-
-## Step 2: Base
-
-Note: no part of the base will be visible any longer once the cover is attached, so you can use up leftover filament
-
-| Filename                            | Thumbnail                                                | Required | Notes |
-| ----------------------------------- | ---------------------------------------------------------| -------- | ------|
-| `./print/base/base_left.stl`        | <img src="./print/base/rendering/base_left.png"/>        | 1        | Invisible in assembled state |
-| `./print/base/base_right.stl`       | <img src="./print/base/rendering/base_left.png"/>        | 1        | Invisible in assembled state |
-| `./print/base/base_middle.stl`      | <img src="./print/base/rendering/base_middle.png"/>      | 1        | Invisible in assembled state |
-| `./print/base/base_lower_left.stl`  | <img src="./print/base/rendering/base_lower_left.png"/>  | 1        | Invisible in assembled state |
-| `./print/base/base_lower_right.stl` | <img src="./print/base/rendering/base_lower_right.png"/> | 1        | Invisible in assembled state |
-
-Assembly:
-- Connect the parts of the lower base via the locks 
-- Most electronics go into the lower part of the base (ESP, DF player, buzzer, loudspeaker, LDR). Make sure to have them installed before going on
-- Connect the parts of the upper base via the locks
-- The WS2812 LED grid is laid in the sunken part of the upper base. Solder the connection wires to the matrix and connect them to the electronics in the lower base
-- Prepare push button assembly by soldering the wires of the 4 button module to the ESP and make them stick out the holes  
-- Put upper part of base atop of lower part
-- Screw both parts toger via screws from bottom (the screw holes on the upper part are foreseen for wall hangings via screws)
-
-![assembly](./print/base/rendering/base_assembly.gif)
-
-
-
-
-
-## Step 3: Pushbuttons
-
-| Filename                                    | Thumbnail                                                        | Required | Notes |
-| ------------------------------------------- | -----------------------------------------------------------------| -------- | ------|
-| `./print/pushbutton/pushbutton_base.stl`    | <img src="./print/pushbutton/rendering/pushbutton_base.png"/>    | 1        | Invisible in assembled state |
-| `./print/pushbutton/pushbutton_clicker.stl` | <img src="./print/pushbutton/rendering/pushbutton_clicker.png"/> | 1        | Make sure to print in the depicted direction and enable light supports |
-
-
-Assembly:
-- Place 4 button module PCN on top of pushbutton base and screws it to the base
-- Press pushbutton top "clicker" to the 4 button module. Each button's hat need to fit into one of the foreseen holes in the clicker 
-
-![assembly](./print/pushbutton/rendering/pushbutton_assembly.gif)
-
-
-
-
-
-
-## Step 4: Covers
-
-Notes:
-- Consider fuzzy skin for outside walls
-- Use a nice color to personalize your AWTRIX
-- Priting in depicted direction requires supports only at the location of the pushbuttons (consider disable auto supports and use paint-on supports at these locations)
-
-| Filename                        | Thumbnail                                            | Required | Notes |
-| ------------------------------- | -----------------------------------------------------| -------- | ------|
-| `./print/cover/cover_left.stl`  | <img src="./print/cover/rendering/cover_left.png"/>  | 1        |       |
-| `./print/cover/cover_right.stl` | <img src="./print/cover/rendering/cover_right.png"/> | 1        |       |
-
-
-Cut the acrylic board as shown:
-![assembly](./print/cover/rendering/acryl.png)
-
-
-
-Assembly:
-- Place the diffusor on top of the LED matrix in the sunken part of the upper base. Adjust the peaces in a way that the surface of the diffusor aligns with the one of the upper base
-- place the acrylic board on top of the base and diffusor
-- Slide both parts of the cover on the base with the diffusor and acrylic board
-- Screw the cover to the base 
-
-![assembly](./print/cover/rendering/cover_assembly.gif)
-
-
-
-
-## Step 5: Anti-slip pads
-Optionally you might want to add TPU [anti-slip pads](./print/antislip/antislip.stl) to the AWTRIX which gives it a solid stand in laying (8 pads) and/or upright position (3 pads).
-Assemble these pads at the indicated locations on the base and cover via double sided tape. 
-
-Alternatively you can use standard non-slip pads or even cut peaces of standard rubber pads and attach them with double sided tape.
-
-Location of the pads for upright position:
-<img src="./print/antislip/rendering/antislip_upright.png"/>
-
-Location of the pads for laying or wall hanging position:
-<img src="./print/antislip/rendering/antislip_back.png"/>
 
 
 
