@@ -16,7 +16,8 @@ Assembly:
 
 ![assembly](./diffusor/diffusor_assembly.gif)
 
-
+Detailed view of the different layers of the diffusor in its final assembly position:
+![detail](./diffusor/details_diffusor.jpg)
 
 [Next step](./step_2.md) | 
-[Back to overview](../readme.md) 
+[Back to overview](../README.md) 

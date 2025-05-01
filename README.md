@@ -25,10 +25,15 @@ Also the temperature/humidity sensor I did not include in the housing as the hea
 
 
 # Index
-- [Buy parts](#buy_parts)
-- [Printing and assembly](#printing_and_assembly)
-- [Customization ideas](#customization_ideas)
+- [Buy parts](#buy-parts)
+- [Printing and assembly](#printing-and-assembly)
+- [Customization ideas](#customization-ideas)
 - [Acknowledgements](#Acknowledgements)
+
+
+| Left iso | top | right iso | back |
+| -------- | --- | --------- | ---- |
+| <img src="./instructions/rendering/left.png" width=300px /> | <img src="./instructions/rendering/top.png" width=300px /> | <img src="./instructions/rendering/right.png" width=300px /> | <img src="./instructions/rendering/back.png" width=300px /> |
 
 
 

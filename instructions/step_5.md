@@ -12,4 +12,4 @@ Location of the pads for laying or wall hanging position:
 
 
 [Previous step](./step_4.md) |
-[Back to overview](../readme.md) 
+[Back to overview](../README.md) 
