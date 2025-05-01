@@ -8,12 +8,11 @@ Full source code for AWTRIX available here: [AWTRIX repo](https://github.com/Blu
 
 Features:
 - Base build is under 20 USD, full feature set about 25USD
-- 32*8px display with light-diffusor for pixel look
-- Clean "fullblack" effect when off  
-- Three menu buttons
+- Can be printed on most popular 3D printers as only a bed size of 175mm is required
+- 32*8px display with light-diffusor for pixel look and clean "fullblack" effect when off  
 - Stylable by easily exchangeable covers with different colors and touch
-- Preparation for wall hanging mount
-- and stand supports
+- Three menu buttons
+- Preparation for wall hanging via nails and screws as well as for standing or laying usage
 - Optional light sensor 
 - Optional DF Player MP3 sound
 - Optional buzzer
@@ -24,17 +23,18 @@ Note that I didn't foresee support for the battery and the battery sensor as I d
 Also the temperature/humidity sensor I did not include in the housing as the heat dissipation from the display will hinder any accurate reading when using a sensor in the same housing. Alternartively use a regular separate weather station sensor and display its reading to the AWTRIX screen.
 
 
+Examples:
+| Time/date (AWTRIX build in) | Spotify (Custom app) | Example of variation by different cover |
+| --------------------------- | -------------------- | --------------------------------------- |
+|<img src="./instructions/photos/usecase_clock.jpg" width=300px /> | <img src="./instructions/photos/usecase_spotify.jpg" width=300px /> | <img src="./instructions/photos/variations.jpg" width=300px />|
+
+
+
 # Index
 - [Buy parts](#buy-parts)
 - [Printing and assembly](#printing-and-assembly)
 - [Customization ideas](#customization-ideas)
 - [Acknowledgements](#Acknowledgements)
-
-
-| Left iso | top | right iso | back |
-| -------- | --- | --------- | ---- |
-| <img src="./instructions/renderings/left.png" width=300px /> | <img src="./instructions/renderings/top.png" width=300px /> | <img src="./instructions/renderings/right.png" width=300px /> | <img src="./instructions/renderings/back.png" width=300px /> |
-
 
 
 ## Buy parts
@@ -62,6 +62,12 @@ Optional parts:
 
 ## Printing and assembly
 
+
+| 45° | top | -45° | back |
+| -------- | --- | --------- | ---- |
+| <img src="./instructions/renderings/right.png" width=300px /> | <img src="./instructions/renderings/top.png" width=300px /> | <img src="./instructions/renderings/left.png" width=300px /> | <img src="./instructions/renderings/back.png" width=300px /> |
+
+
 The printing and assembly process consist of 5 steps:
 - [Step 1: Diffusor](./instructions/step_1.md)
 - [Step 2: Base](./instructions/step_2.md)
@@ -72,6 +78,7 @@ The printing and assembly process consist of 5 steps:
 Remarks on printer settings:
 - All printed parts designed for PETG besides for the anti-slip pads (TPU) or the diffusor (worked best on PLA). 
 - Best experience on my printer was to print the part in the direction as shown in the thumbnails
+- I used 20% Gyroid infill and hilbert curve first/top layers
 - no supports needed unless explicitely noted
 - Using fuzzy skin for all outside walls creates a nice look
 - No rafts/brim etc. reguired for any model.
