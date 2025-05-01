@@ -163,7 +163,6 @@ Assembly:
 - Slide both parts of the cover on the base with the diffusor and acrylic board
 - Screw the cover to the base 
 
-Cut the acrylic board as shown:
 ![assembly](./print/cover/rendering/cover_assembly.gif)
 
 
