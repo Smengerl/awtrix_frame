@@ -33,7 +33,7 @@ Also the temperature/humidity sensor I did not include in the housing as the hea
 
 | Left iso | top | right iso | back |
 | -------- | --- | --------- | ---- |
-| <img src="./instructions/rendering/left.png" width=300px /> | <img src="./instructions/rendering/top.png" width=300px /> | <img src="./instructions/rendering/right.png" width=300px /> | <img src="./instructions/rendering/back.png" width=300px /> |
+| <img src="./instructions/renderings/left.png" width=300px /> | <img src="./instructions/renderings/top.png" width=300px /> | <img src="./instructions/renderings/right.png" width=300px /> | <img src="./instructions/renderings/back.png" width=300px /> |
 
 
 
