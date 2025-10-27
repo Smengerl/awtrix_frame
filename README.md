@@ -92,6 +92,25 @@ The housing offers several customization options:
 - Use effects like "fuzzy skin" for a unique appearance.
 
 
+
 ## Acknowledgements
+
 - Special thanks to Blueforcer for creating the incredible AWTRIX3 project.
+
+
+## Development
+
+Contributions are welcome — see `CONTRIBUTING.md` for details.
+
+## License
+
+This project is licensed under the Beerware License — see `LICENSE.txt` for details.
+
+## Authors
+
+- Simon Gerlach <https://github.com/Smenger>
+
+---
+
+If something in this README is missing or unclear, please open an issue in the repository so the instructions can be improved.
 
