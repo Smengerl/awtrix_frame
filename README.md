@@ -1,5 +1,8 @@
 # Ultra-low-cost AWTRIX build
 
+[![3D Printing](https://img.shields.io/badge/3D_printing-STL-green)](#)
+[![License](https://img.shields.io/badge/license-Beerware-green)](#)
+
 AWTRIX is an amazing and highly flexible visualization companion for smart home applications and more. Originally designed to be flashed onto the Ulanzi Pixel Clock (priced at around $50), it also supports custom builds.
 
 I wanted to create a fully featured custom build with a professional look but at a much lower price point than the original. Since I couldn’t find a comprehensive guide, I decided to create one myself.
