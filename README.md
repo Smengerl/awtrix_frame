@@ -1,7 +1,7 @@
 # Ultra-low-cost AWTRIX build
 
 [![3D Printing](https://img.shields.io/badge/3D_printing-STL-green)](#)
-[![License](https://img.shields.io/badge/license-Beerware-green)](#)
+[![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0-blue)](http://creativecommons.org/licenses/by-sa/4.0/)
 
 AWTRIX is an amazing and highly flexible visualization companion for smart home applications and more. Originally designed to be flashed onto the Ulanzi Pixel Clock (priced at around $50), it also supports custom builds.
 
@@ -108,7 +108,7 @@ See `CONTRIBUTING.md` for details and follow the `CODE_OF_CONDUCT.md` when contr
 
 ## License
 
-This project is licensed under the Beerware License — see `LICENSE.txt` for details.
+This project is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0) — see `LICENSE.txt` for details or visit http://creativecommons.org/licenses/by-sa/4.0/
 
 ## Authors
 
