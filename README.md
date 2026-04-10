@@ -94,7 +94,11 @@ The housing offers several customization options:
 - Print covers in different colors or textures.
 - Use effects like "fuzzy skin" for a unique appearance.
 
+## Troubleshooting
 
+### External Power
+
+Powering the ESP32 via USB may cause brownouts under LED load. To resolve this, supply regulated 5V directly to the 5V/VIN rail (with a common ground). Use a sufficiently rated 5V supply and thick wiring. Avoid feeding 5V into the USB connector unless using proper power-path/diode.
 
 ## Acknowledgements
 
