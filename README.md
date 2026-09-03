@@ -56,10 +56,10 @@ Optional parts:
 
 | Unit price | Quantity | Partname | Example | Notes |
 | ---------- | -------- | -------- | ------- | ----- |
-| 1 USD      | 1        | DF Player mini | <a href="https://de.aliexpress.com/item/1005006263283726.html">AliExpress</a> | For MP3 playback |
+| 1 USD      | 1        | DF Player mini | <a href="https://de.aliexpress.com/item/1005006166800318.html">AliExpress</a> | For MP3 playback |
 | 1 USD      | 1        | Loudspeaker (8 Ohm) | <a href="https://de.aliexpress.com/item/1005006358049156.html">AliExpress</a> | For MP3 playback. Watch for dimensions |
 | <1 USD     | 1        | Buzzer | <a href="https://de.aliexpress.com/item/1005004883467830.html">AliExpress</a> | For notifications or alarms. |
-| <1 USD     | 1        | LDR (GL5516) | <a href="https://de.aliexpress.com/item/1005005693826904.html">AliExpress</a> | For automatic brightness adjustment. |
+| <1 USD     | 1        | LDR (GL5516) | <a href="https://de.aliexpress.com/item/1005003021557603.html">AliExpress</a> | For automatic brightness adjustment. |
 
 
 
