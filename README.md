@@ -48,7 +48,7 @@ Mandatory parts:
 | ---------- | -------- | -------- | ------- | ----- |
 | 5 USD      | 1        | ESP32 Dev Module | <a href="https://de.aliexpress.com/item/1005006124752051.html">AliExpress</a> | Designed for WROVER USB-C type. Other types fit but may require glue |
 | 8 USD      | 1        | WS2812B matrix 8x32 | <a href="https://de.aliexpress.com/item/4001296811800.html">AliExpress</a> |  |
-| 1 USD      | 1        | 4 pushbutton element | <a href="https://de.aliexpress.com/item/1005007177677170.html">AliExpress</a> | Connect the outputs of the two middle buttons to "OR" their signal. Unsolder the LED for a cleaner look. |
+| 1 USD      | 1        | 4 pushbutton element | <a href="https://de.aliexpress.com/item/1005008219549275.html">AliExpress</a> | Connect the outputs of the two middle buttons to "OR" their signal. Unsolder the LED for a cleaner look. |
 | 2 USD      | 1        | semi-transparent acrylic board | <a href="https://de.aliexpress.com/item/32857098929.html">AliExpress</a> | Optional. Best results with semi-transparent black acrylic (2mm thick). Thinner sheets may need glue. Minimum size: 338x98mm. |
 | <1 USD     | 25       | Flathead screws M2,5 or M3. 6mm. e.g. DIN 7984 | <a href="https://de.aliexpress.com/item/1005006166060947.html">AliExpress</a> | Use low-head screws (e.g., laptop screws) for a better appearance. |
 
