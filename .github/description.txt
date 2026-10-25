@@ -1,1 +1,1 @@
-Comprehensive how-to for building an low-cost but professional looking AWTRIX case
+Build your own AWTRIX clock for under $20: a 3D-printed case with swappable covers, full guide with STL and wiring.
